@@ -12,7 +12,8 @@ export const CardList = ({ users }) => {
                 name={user.display_name} 
                 rep = {user.reputation} 
                 badges = {user.badge_counts}
-                email={user.location} 
+                location={user.location}
+                link = {user.link}
             />
         );
     });

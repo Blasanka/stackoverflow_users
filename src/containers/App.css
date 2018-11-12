@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'ExpresswayRg-Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('ExpresswayRg-Regular'), url('expressway rg.woff') format('woff');
+}
+
+h1 {
+    font-family: 'ExpresswayRg-Regular';
+    font-weight: 200;
+    color: rgb(233, 210, 0);
+}

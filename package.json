@@ -2,6 +2,7 @@
   "name": "stackoverflow_users",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http:blasanka.github.io/stackoverflow_users",
   "dependencies": {
     "react": "^16.6.1",
     "react-dom": "^16.6.1",

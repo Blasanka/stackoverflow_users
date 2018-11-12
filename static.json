@@ -1,5 +1,5 @@
 {
-  "root": "public/",
-  "clean_urls": true,
+  "root": "build/",
+  "clean_urls": false,
   "error_page": "404.html"
 }

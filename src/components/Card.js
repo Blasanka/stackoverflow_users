@@ -13,9 +13,9 @@ const Card = ({ name, location, id, img, rep, badges, link }) => {
                     <h2>{name}</h2>
                     <h3>Reputation: { rep }</h3>
                     <span>
-                        <img alt='G' src={gold} width='12px' height='12x' /> { badges.gold } 
-                        <img alt='S' src={silver} width='12px' height='12x' /> { badges.silver } 
-                        <img alt='B' src={bronz} width='12px' height='12x' /> { badges.bronze }   
+                        <img alt='G' src={gold} width='12px' height='12x' /> { badges.gold } &nbsp;
+                        <img alt='S' src={silver} width='12px' height='12x' /> { badges.silver } &nbsp;
+                        <img alt='B' src={bronz} width='12px' height='12x' /> { badges.bronze } 
                     </span>
                     <p>{location}</p>
                 </div>

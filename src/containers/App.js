@@ -38,7 +38,7 @@ class App extends Component {
             : (
                 <div className='tc'>
                     <div className='flex'>
-                        <h1 className='tl f2 w-50 pa2 mr2'>Stackoverflow Users</h1>
+                        <h1 className='tl f3 w-50 pa2 mr2'>Stackoverflow Users</h1>
                         <SearchBox searchChange={this.onSearchChange} />
                     </div>
                     <Scroll>

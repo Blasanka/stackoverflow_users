@@ -2,7 +2,7 @@
   "name": "stackoverflow_users",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://stackoverflow-users.herokuapp.com",
+  "homepage": "http://stackoverflow-users.herokuapp.com",
   "dependencies": {
     "react": "^16.6.1",
     "react-dom": "^16.6.1",

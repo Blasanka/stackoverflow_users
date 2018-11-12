@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { CardList } from '../components/CardList';
 import SearchBox from '../components/SearchBox';
 import Scroll from '../components/Scroll';
+import AwesomeLoader from '../components/AwesomeLoader';
 import './App.css';
 import 'tachyons';
 
@@ -33,11 +34,11 @@ class App extends Component {
         });
 
         return (users.length === 0) 
-            ? <h2 className="f1 tc">Loading..</h2>
+            ? <AwesomeLoader />
             : (
                 <div className='tc'>
                     <div className='flex'>
-                        <h1 className='tl f3 w-50 pa2 mr2'>Stackoverflow Users</h1>
+                        <h1 className='tl f2 w-50 pa2 mr2'>Stackoverflow Users</h1>
                         <SearchBox searchChange={this.onSearchChange} />
                     </div>
                     <Scroll>

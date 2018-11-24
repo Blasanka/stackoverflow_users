@@ -20,7 +20,11 @@ class AwesomeLoader extends React.Component {
   }
   render() {
     return (
-      <div className='sweet-loading tc'>
+      <div className='sweet-loading tc' 
+            style={{
+                position: 'absolute', left: '50%', top: '50%',
+                transform: 'translate(-50%, -50%)'
+            }}>
         <ClipLoader
           className={override}
           sizeUnit={"px"}

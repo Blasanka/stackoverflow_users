@@ -14,3 +14,15 @@ h1 {
 a {
     color: black;
 }
+
+.controlls{
+    display: flex;
+    width: 50%;
+}
+
+@media (max-width: 500px) { 
+    .controlls{
+        display: block;
+        width: 50%;
+    }
+}
